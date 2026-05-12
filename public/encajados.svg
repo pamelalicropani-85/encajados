@@ -1,0 +1,31 @@
+<svg width="100%" viewBox="0 0 680 320" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Encajados color</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo colorido de la tienda Encajados con piezas de rompecabezas</desc>
+
+  
+
+  <!-- Top-left piece: coral/red -->
+  <g transform="translate(230, 50)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path fill="#E8534A" d="&#10;      M0,0 L40,0&#10;      Q40,-14 50,-14 Q60,-14 60,0&#10;      L100,0 L100,40&#10;      Q114,40 114,50 Q114,60 100,60&#10;      L100,100 L60,100&#10;      Q60,114 50,114 Q40,114 40,100&#10;      L0,100 L0,60&#10;      Q-14,60 -14,50 Q-14,40 0,40&#10;      Z&#10;    " style="fill:rgb(232, 83, 74);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Top-right piece: golden yellow -->
+  <g transform="translate(330, 50)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path fill="#F5A623" d="&#10;      M0,0 L40,0&#10;      Q40,-14 50,-14 Q60,-14 60,0&#10;      L100,0 L100,40&#10;      Q114,40 114,50 Q114,60 100,60&#10;      L100,100 L60,100&#10;      Q60,114 50,114 Q40,114 40,100&#10;      L0,100 L0,60&#10;      Q14,60 14,50 Q14,40 0,40&#10;      Z&#10;    " style="fill:rgb(245, 166, 35);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Bottom-left piece: teal/green -->
+  <g transform="translate(230, 150)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path fill="#3AAFA9" d="&#10;      M0,0 L40,0&#10;      Q40,14 50,14 Q60,14 60,0&#10;      L100,0 L100,40&#10;      Q114,40 114,50 Q114,60 100,60&#10;      L100,100 L60,100&#10;      Q60,86 50,86 Q40,86 40,100&#10;      L0,100 L0,60&#10;      Q-14,60 -14,50 Q-14,40 0,40&#10;      Z&#10;    " style="fill:rgb(58, 175, 169);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Bottom-right piece: indigo/blue -->
+  <g transform="translate(330, 150)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path fill="#4A6FE3" d="&#10;      M0,0 L40,0&#10;      Q40,14 50,14 Q60,14 60,0&#10;      L100,0 L100,40&#10;      Q114,40 114,50 Q114,60 100,60&#10;      L100,100 L60,100&#10;      Q60,86 50,86 Q40,86 40,100&#10;      L0,100 L0,60&#10;      Q14,60 14,50 Q14,40 0,40&#10;      Z&#10;    " style="fill:rgb(74, 111, 227);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Logo text -->
+  <text x="340" y="245" text-anchor="middle" style="fill:rgb(240, 237, 232);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:52px;font-weight:500;text-anchor:middle;dominant-baseline:auto">ENCAJADOS</text>
+  <text x="340" y="272" text-anchor="middle" style="fill:rgb(170, 170, 170);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">TIENDA DE ROMPECABEZAS</text>
+
+</svg>
