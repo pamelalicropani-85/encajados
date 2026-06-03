@@ -6,13 +6,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import CartWidgetRI from './CartWidgetRI';
+import { NavLink } from 'react-router-dom';
 
 function NavbarRB() {
   console.log('Navbar')
   return (
     <Navbar expand="lg" className="bg-dark" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={NavLink} to="/">
             <img src="/encajados.svg" alt="logo" style={{ height: '9rem' }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -22,12 +23,11 @@ function NavbarRB() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Lo nuevo</Nav.Link>
-            <Nav.Link href="#action2">Favoritos</Nav.Link>
+            <Nav.Link as={NavLink} to="/">Home</Nav.Link>
             <NavDropdown title="Puzzles" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Por Tema</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Por Nro de Fichas</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">Por Marca</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/category/nuevos">Nuevos</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/category/favoritos">Favoritos</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/category/oferta">Oferta</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           
