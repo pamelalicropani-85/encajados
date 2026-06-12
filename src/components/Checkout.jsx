@@ -3,16 +3,18 @@ import { CartContext } from "../context/CartContext"
 import { addDoc, collection, serverTimestamp } from "firebase/firestore"
 import { db } from "../service/firebase"
 import EmptyCart from "./EmptyCart"
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
+import Swal from "sweetalert2"
 
 
 const Checkout=()=>{
     const [buyer, setBuyer]=useState({})
     const [secondMail, setSecondMail]= useState('')
-    const [orderId, setOrderId]= useState('')
+    const [orderId, setOrderId]= useState(null)
     const [error, setError]= useState(null)
     const [loading , setLoading ]= useState(null)
     const {cart, total, clear}=useContext(CartContext)
+    const navigate = useNavigate()
 
 
     const buyerData=(e)=>{
@@ -45,6 +47,13 @@ const Checkout=()=>{
         .then((res)=>{
            setOrderId(res.id)
            clear()
+           Swal.fire({
+              title: '¡Gracias por tu compra! 🧩',
+              text: `Tu orden de compra es: ${res.id}`,
+              icon: 'success',
+              confirmButtonText: 'Volver al inicio',
+              confirmButtonColor: '#212529'
+           }).then(() => navigate('/'))
         })
         .catch((error)=>console.log(error))
         .finally(()=> setLoading(false))
@@ -56,14 +65,7 @@ if (!cart.length && !orderId){
 }
 return(
     <>
-        {
-            orderId 
-            ? <div>
-                <h1>Muchas gracias por tu compra! 🤩</h1>    
-                <h2>Orden de compra: {orderId}</h2>
-                <Link to="/" className="btn btn-dark">Volver a Home</Link>
-            </div>
-            :<div>
+        <div>
             <h1>Complete sus datos</h1>
             {error && <small style={{color:"red"}}>{error}</small>}
 
@@ -76,7 +78,6 @@ return(
                 <button type='submit' className="btn btn-success" disabled={loading}>{loading ?'Procesando compra...': 'Terminar Compra'}</button>
             </form>
         </div>
-        }
     </>
 )
 }
