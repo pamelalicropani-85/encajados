@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidgetRI from './CartWidgetRI';
 import { NavLink } from 'react-router-dom';
 
-function NavbarRB() {
+function NavbarRB({qty}) {
   console.log('Navbar')
   return (
     <Navbar expand="lg" className="bg-dark" data-bs-theme="dark">
@@ -32,16 +32,8 @@ function NavbarRB() {
           </Nav>
           
           
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Buscar"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">🔍</Button>
-          </Form>
-          <div className="mx-3"><CartWidgetRI/></div>
+          
+          <div className="mx-3"><CartWidgetRI qty={qty}/></div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

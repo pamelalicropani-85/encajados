@@ -1,15 +1,15 @@
-const productos =[
+export const productos =[
+    // {
+    //     id:'01',
+    //     name: 'Burbujas Light',
+    //     description: '1000 piezas',
+    //     stock: 45,
+    //     price: 30000,
+    //     category: 'nuevos',
+    //     img: "/burbujas.jpg"
+    // },
     {
-        id:'01',
-        name: 'Burbujas Light',
-        description: '1000 piezas',
-        stock: 45,
-        price: 30000,
-        category: 'nuevos',
-        img: "/burbujas.jpg"
-    },
-    {
-        id:'02',
+        //id:'02',
         name: 'Burbujas Violet',
         description: '1000 piezas',
         stock: 25,
@@ -18,7 +18,7 @@ const productos =[
         img: '/burbujas1.jpg'
     },
     {
-        id:'03',
+        //id:'03',
         name: 'Burbujas Green',
         description: '1000 piezas',
         stock: 40,
@@ -27,7 +27,7 @@ const productos =[
         img: '/burbujas2.jpg'
     },
     {
-        id:'04',
+        //id:'04',
         name: 'Hojas Multi',
         description: '2000 piezas',
         stock: 15,
@@ -36,7 +36,7 @@ const productos =[
         img: '/hojas.jpg'
     },
     {
-        id:'05',
+        //id:'05',
         name: 'Hojas Otoño',
         description: '2000 piezas',
         stock: 10,
@@ -45,7 +45,7 @@ const productos =[
         img: '/hojas1.jpg'
     },
     {
-        id:'06',
+        //id:'06',
         name: 'Hojas de Rosa',
         description: '3000 piezas',
         stock: 50,
@@ -54,7 +54,7 @@ const productos =[
         img: '/hojas2.jpg'
     },
     {
-        id:'07',
+        //id:'07',
         name: 'Lineas ',
         description: '2000 piezas',
         stock: 35,
@@ -63,7 +63,7 @@ const productos =[
         img: '/lineas.jpg'
     },
     {
-        id:'08',
+        //id:'08',
         name: 'Mas lineas',
         description: '2000 piezas',
         stock: 20,
@@ -72,7 +72,7 @@ const productos =[
         img: '/lineas1.jpg'
     },
     {
-        id:'09',
+        //id:'09',
         name: 'Psico',
         description: '3000 piezas',
         stock: 35,
@@ -81,7 +81,7 @@ const productos =[
         img: '/lineas2.jpg'
     },
     {
-        id:'10',
+        //id:'10',
         name: 'Pincelada',
         description: '9000 piezas',
         stock: 10,
@@ -90,7 +90,7 @@ const productos =[
         img: '/pintura.jpg'
     },
     {
-        id:'11',
+        //id:'11',
         name: 'Paint Green',
         description: '5000 piezas',
         stock: 50,
@@ -99,7 +99,7 @@ const productos =[
         img: '/pintura1.jpg'
     },
     {
-        id:'12',
+        //id:'12',
         name: 'Antiguo',
         description: '1000 piezas',
         stock: 40,

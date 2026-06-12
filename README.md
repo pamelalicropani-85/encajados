@@ -1,16 +1,41 @@
-# React + Vite
+# Encajados 🧩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda online de puzzles desarrollada con React y Firebase.
 
-Currently, two official plugins are available:
+![Encajados](/public/encajados.svg )
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías
 
-## React Compiler
+- **React 19** — biblioteca de UI
+- **Vite** — bundler y servidor de desarrollo
+- **React Router DOM** — navegación entre páginas
+- **React Bootstrap** — componentes de UI
+- **Firebase / Firestore** — base de datos para productos y órdenes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Listado de productos por categoría (Nuevos, Favoritos, Oferta)
+- Vista de detalle de cada producto
+- Carrito de compras con agregar, eliminar y vaciar
+- Checkout con validación de formulario y confirmación de orden
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+Instalar dependencias
+Levantar el proyecto de manera local
+
+```bash
+npm install
+npm run dev
+```
+
+## Scripts
+
+| Comando | Descripción |
+|---|---|
+| `npm run dev` | Inicia el servidor de desarrollo |
+| `npm run build` | Genera la build de producción |
+| `npm run preview` | Previsualiza la build |
+
+>Requisito técnico, tener instalado mínimamente v22.10.0
+
+Desarrollado por Pamela 🧩

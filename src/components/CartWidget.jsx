@@ -1,8 +1,9 @@
-const CartWidget =({count})=>{
+const CartWidget =(props)=>{
+    console.log(props)
     return(
         <div>
             <span>🛒</span>
-            <span style={{color:"blueviolet"}}>{count}</span>
+            <span style={{color:'red', fontWeight:'bold' }}>{props.count}</span>
         </div>
     )
 }
