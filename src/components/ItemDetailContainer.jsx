@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import ItemDetail from './ItemDetail'
-import { getOneProduct } from '../mock/asyncMock'
 import { useParams } from 'react-router-dom'
 import LoaderComponent from './LoaderComponent'
 import { db } from '../service/firebase'
@@ -22,15 +21,9 @@ useEffect (()=>{
 setInvalid(true)
       }
     }) 
-    .catch ((error)=> console.log(error))
+    .catch ((error)=> console.error(error))
     .finally(()=> setLoading(false))
 },[id])
-// useEffect (()=>{
-//     getOneProduct(id)
-//     .then((res)=> setDetalle(res)) 
-//     .catch ((error)=> console.log(error))
-//     .finally(()=> setLoading(false))
-// },[id])
 
   return (
     <div>

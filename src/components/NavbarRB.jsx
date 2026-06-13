@@ -9,7 +9,6 @@ import CartWidgetRI from './CartWidgetRI';
 import { NavLink } from 'react-router-dom';
 
 function NavbarRB({qty}) {
-  console.log('Navbar')
   return (
     <Navbar expand="lg" className="bg-dark" data-bs-theme="dark">
       <Container fluid>

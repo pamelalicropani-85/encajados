@@ -11,8 +11,7 @@ import CartContainer from './components/CartContainer';
 import Checkout from './components/CheckOut';
 function App() {
  const [qty, setQty]=useState(0)
-  
-  console.log('App')
+
   return (  
     <>
     <BrowserRouter>

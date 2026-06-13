@@ -25,8 +25,6 @@ const Checkout=()=>{
     
 }
 
-    console.log(buyer)
-
     const terminarCompra =(e)=>{
      e.preventDefault()
      if (!buyer.name || !buyer.lastname || !buyer.address || !buyer.mail || !secondMail) {
@@ -37,7 +35,7 @@ const Checkout=()=>{
         setError(null)
         setLoading(true)
         let orden= {
-           comparador: buyer,
+           comprador: buyer,
            carrito: cart,
            total: total(),
            fecha: serverTimestamp()
@@ -55,7 +53,7 @@ const Checkout=()=>{
               confirmButtonColor: '#212529'
            }).then(() => navigate('/'))
         })
-        .catch((error)=>console.log(error))
+        .catch((error)=>console.error(error))
         .finally(()=> setLoading(false))
      }
     }

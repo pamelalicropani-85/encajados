@@ -5,7 +5,6 @@ import { CartContext } from "../context/CartContext"
 
 const CartWidgetRI =()=>{
    const {cart, totalQty}= useContext (CartContext)
-   console.log (cart)
     return(
         <div>
             <BsCart2 style={{ color: 'white', fontSize: '1.8rem' }} />

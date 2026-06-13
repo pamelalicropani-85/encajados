@@ -7,10 +7,7 @@ import { Link } from 'react-router-dom'
 const ItemDetail = ({detalle, invalid}) => {
   const [purchase, setPurchase] = useState(false)
 
-// const contexto = useContext(CartContext)
-// console.log(contexto, 'contexto') 
-const {cart, addItem}= useContext(CartContext)
-console.log(cart, 'contexto')  
+const {addItem}= useContext(CartContext)
  const onAdd = (cantidad)=>{
     addItem(detalle, cantidad)
    setPurchase(true)
